@@ -17,7 +17,7 @@ function EandE() {
 							University of Windsor
 						</Text>
 						<Text size="md" mt={4}>
-							May 2021 - Present
+							May 2022 - Present
 						</Text>
 					</Timeline.Item>
 
@@ -31,7 +31,7 @@ function EandE() {
 							Pepcoding
 						</Text>
 						<Text size="md" mt={4}>
-							Sept 2021 – Feb 2021
+							Sept 2021 – Feb 2022
 						</Text>
 					</Timeline.Item>
 
