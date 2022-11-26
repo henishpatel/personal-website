@@ -19,7 +19,7 @@ function Home() {
         <div className={styles.textContainer}>
           <h3>Hello 👋, I am </h3>
           <h1>Henish Patel</h1>
-          <h2>Software Engineer | Freelancer</h2>
+          <h2>Grad Student at University of Windsor</h2>
           <div className={styles.iconContainer}>
             <a
               href="https://github.com/henishpatel/"

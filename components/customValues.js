@@ -9,6 +9,7 @@ import imdbCloneImg from '../public/project-image/imdb-clone.png'
 import cricinfoscrapperImg from '../public/project-image/cric-infoscapper.png'
 import TODOStackImg from '../public/project-image/TODO-Stack.png'
 import VacFaceImg from '../public/project-image/vacface.png'
+import ecommerceImg from '../public/project-image/ecommerce.png'
 
 import tailwindSvg from '../public/technology-icon/tailwind-css-icon.svg'
 import pptrdevSvg from '../public/technology-icon/pptrdev-icon.svg'
@@ -52,6 +53,28 @@ import elkSvg from '../public/technology-icon/elk.svg'
 import datadogSvg from '../public/technology-icon/datadog.svg'
 
 export let projects = [
+  {
+    title: 'E-Commerce Website',
+    projectURL: 'ecommerce-website',
+    type: 'NodeJS Script',
+    projectImg: ecommerceImg,
+    // DetailsImage:AppointMeetDetailsImage,
+    descriptionShort:
+      'The website displays products. Users can add and remove products to/from their cart while also specifying the quantity of each item.',
+    descriptionLong:
+      'The website displays products. Users can add and remove products to/from their cart while also specifying the quantity of each item. Also, has a chat feature.',
+    button: {
+      viewCodeUrl: 'https://github.com/henishpatel/eCommerce',
+      viewProjectUrl: 'https://frontend-ceqj.onrender.com/',
+    },
+    technologyUsed: [
+      { name: 'NodeJS', img: nodejsSvg },
+      { name: 'JavaScript', img: javaScriptSvg },
+      { name: 'MongoDB', img: mongodbSvg },
+      { name: 'SASS', img: sassSvg },
+      { name: 'Express', img: expressSvg },
+    ],
+  },
   {
     title: 'Hackerrank Automation',
     projectURL: 'hackerrank-automation',
