@@ -56,7 +56,7 @@ export let projects = [
   {
     title: 'E-Commerce Website',
     projectURL: 'ecommerce-website',
-    type: 'NodeJS Script',
+    type: 'MERN Web App',
     projectImg: ecommerceImg,
     // DetailsImage:AppointMeetDetailsImage,
     descriptionShort:
